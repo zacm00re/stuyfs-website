@@ -3,6 +3,7 @@
 
 body{
     background:radial-gradient(#3d1a4b, #111119);
+    align-items: center;
 }
 
 a{
@@ -36,6 +37,7 @@ a{
 .form__item {
   display: flex;
   flex-direction: column;
+  opacity: 75;
 }
 
 .form__desc2{
@@ -131,4 +133,8 @@ textarea.form__input {
 .logo{
     display:flex;
     justify-content: end;    height:200px;
+}
+
+.link {
+  color:rgb(173, 173, 255)
 }
