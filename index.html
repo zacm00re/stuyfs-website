@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src = "stuyfs.js"></script>
+</head>
+<body>
+    <form class="form" action="./" method="POST">
+        <div class="form__title"><h1>StuyFS Registration Form</h1></div>
+        <p class="form__desc">
+          Thank you for your interest in StuyFS! If you haven't already, make sure to join us on <a href = https://stuyactivities.org/StuyFullStack>StuyActivities </a> in order to be alerted when we announce meetings or Guest Speaker panels.
+          <br>In order to join, please fill out the form below- don't worry, we don't share your data anywhere.
+        </p>
+        <div class="form__item">
+          <label for="names" class="form__label">Name:</label>
+          <input type="text" class="form__input" name="names" id="names" placeholder="Enter your preferred name.">
+          <span class="form__error">n/a</span>
+        </div>
+        <div class="form__item">
+            <label for="pronouns" class="form__label">Preferred Pronouns:</label>
+            <input type="text" class="form__input" name="pronouns" id="pronouns" placeholder="Enter your preferred pronouns!">
+            <span class="form__error">n/a</span>
+          </div>
+        <div class="form__item">
+            <label for="emails" class="form__label">Email:</label>
+            <input type="text" class="form__input" name="emails" id="emails" placeholder="Enter your email.">
+            <span class="form__error">n/a</span>
+          </div>
+          <div class="form__item">
+            <label for="johnjay" class="form__label">Would you also like to join our cohort @ John Jay?</label>
+            <p class = form__desc2><i>StuyFS is proud to be partnered with the STEP program at John Jay College, where we dive into more complex topics on Saturdays from 10 AM - 12 PM. Seating is limited and on a first-come, first-served basis, so sign up today if interested!</i></p>
+            <label for = "Yes, I'd love to!" class="form__label">Yes, I'd love to!</label><input type="radio" form="form__input" name = "johnjay" id = "Yes">
+            <label for = "I'll pass. Thank you!" class="form__label">I'll pass. Thank you!</label><input type="radio" form="form__input" name = "johnjay" id = "No">
+            <span class="form__error">n/a</span>
+          </div>
+        <div class="form__item">
+          <label for="message" class="form__label">Any Questions?</label>
+          <textarea maxlength="500" class="form__input" name="message" id="message" placeholder="Ask us anything! It could be about our meeting schedule, content plan, or something entirely different."></textarea>
+          <span class="form__error">n/a</span>
+        </div>
+        <div class="form__item">
+          <button class="form__btn" type="submit">Sign Up</button>
+        </div>
+      </form>
+      <div class = "logo">
+        <img id = "logo_img" src= "logo.png">
+    </div>
+    </body>
+</html>
